@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.projecthorizen.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ScreenMixin",
+    "ItemModelManagerMixin",
+    "HeldItemRendererMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
